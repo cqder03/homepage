@@ -1,0 +1,36 @@
+@import "./media-query.css";
+
+@font-face {
+  font-family: "playfair_displayitalic";
+  src: url("../assets/fonts/Playfari_Display/playfairdisplay-italic-variablefont_wght.woff2")
+      format("woff2"),
+    url("../assets/fonts/Playfari_Display/playfairdisplay-italic-variablefont_wght.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "playfair_displayregular";
+  src: url("../assets/fonts/Playfari_Display/playfairdisplay-variablefont_wght.woff2")
+      format("woff2"),
+    url("../assets/fonts/Playfari_Display/playfairdisplay-variablefont_wght.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "robotolight";
+  src: url("../assets/fonts/Roboto/roboto-light.woff2") format("woff2"),
+    url("../assets/fonts/Roboto/roboto-light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
