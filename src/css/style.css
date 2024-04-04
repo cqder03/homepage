@@ -32,5 +32,211 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "playfair_displayregular";
+}
+
+p {
+  font-family: "robotolight";
+  color: rgb(86, 86, 86);
+}
+
+header,
+main {
+  padding: 10vh 10vw;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header,
+footer {
+  background-color: rgb(8, 145, 178);
+}
+
+#about-me-image {
+  position: relative;
+  width: 35%;
+  z-index: 1;
+}
+
+#about-me-image > img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+}
+
+#about-me-image > h2 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 4.5rem;
+  bottom: 0.5rem;
+  left: 0;
+  color: white;
+}
+
+#about-me-description {
+  position: relative;
+  width: 55%;
+  padding: 2.5rem 1.5rem;
+  aspect-ratio: 8 / 5;
+  background-color: white;
+  box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.5);
+}
+
+#about-me-description > h2 {
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+#about-me-description > p {
+  font-size: 1.5rem;
+  margin: 2rem 0 5rem 0;
+  font-weight: bold;
+  line-height: 2.3rem;
+}
+
+#social-media-icon-wrapper {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+#social-media-icon-wrapper button {
+  border: none;
+  background-color: transparent;
+  height: 2.75rem;
+}
+
+#social-media-icon-wrapper img {
+  height: inherit;
+  aspect-ratio: 1 / 1;
+}
+
+#social-media-icon-wrapper button:hover,
+.links > button:hover {
+  transition: transform 200ms ease-out;
+  transform: scale(1.4);
+}
+
+#social-media-icon-wrapper button:active,
+.links > button:active {
+  transform: scale(1.2);
+}
+
+main > h2 {
+  font-size: 3rem;
+  font-weight: lighter;
+  margin-bottom: 1.5rem;
+}
+
+#projects-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 400px;
+  box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.5);
+  padding-bottom: 4rem;
+}
+
+.project:hover {
+  box-shadow: 2px 3px 9px rgba(105, 173, 182, 0.75);
+  transition: box-shadow;
+  transition-delay: 50ms;
+}
+
+.project-image {
+  height: 250px;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-image > p {
+  font-size: 2.5rem;
+}
+
+.project-name-and-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-name-and-links,
+.project-description {
+  margin: 0.7rem 1rem;
+}
+
+.project-name {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.links > button {
+  border: none;
+  background-color: transparent;
+  height: 2.5rem;
+}
+
+.links > button:first-child {
+  height: 2.2rem;
+}
+
+.links > button:nth-child(2):active {
+  content: url("../../src/assets/icons/link-box-variant.png");
+}
+
+.links img {
+  height: inherit;
+}
+
+footer {
+  padding: 5vh 10vw;
+  display: flex;
+}
+
+footer h2,
+footer p {
+  color: white;
+}
+
+#contact-information {
+  width: 30%;
+}
+
+#contact-information > p {
+  margin-bottom: 0.5rem;
+}
+
+#social-media-links > img {
+  width: 2rem;
+  margin: 0 0.5rem;
+}
+
+footer > img {
+  width: 60%;
+}
