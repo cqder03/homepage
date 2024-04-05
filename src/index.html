@@ -9,293 +9,286 @@
       type="images/x-icon"
       href="../src/assets/icons/dark-favicon.png"
     />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/media-query.css" />
   </head>
   <body>
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Homepage</title>
-        <link
-          rel="icon"
-          type="images/x-icon"
-          href="../src/assets/icons/dark-favicon.png"
+    <header>
+      <div id="about-me-image">
+        <img
+          src="../src/assets/images/portait-1-medium.jpg"
+          alt="about me protrait"
+          draggable="false"
         />
-      </head>
-      <body>
-        <header>
-          <div id="about-me-image">
+        <h2>John Doe</h2>
+      </div>
+      <div id="about-me-description">
+        <h2>About me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          minima magni totam nam velit impedit, quia quaerat, iusto corporis, ad
+          ratione. Voluptatibus at in impedit! Voluptates dolorum repellendus
+          necessitatibus fuga fugiat quo illum, atque, porro aliquam unde sed,
+          est at distinctio aliquid reiciendis exercitationem. Corrupti quasi
+          modi assumenda nesciunt expedita.
+        </p>
+        <div class="social-media-links">
+          <button class="github-link">
             <img
-              src="../src/assets/images/portait-1-medium.jpg"
-              alt="about me protrait"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+              alt="github logo"
               draggable="false"
             />
-            <h2>John Doe</h2>
+          </button>
+          <button class="linkedin-link">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
+              alt="linkedin logo"
+              draggable="false"
+            />
+          </button>
+          <button class="x-link">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
+              alt="x logo"
+              draggable="false"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h2>My work</h2>
+      <div id="projects-container">
+        <div class="project">
+          <div class="project-image">
+            <p>project screenshot</p>
           </div>
-          <div id="about-me-description">
-            <h2>About me</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              minima magni totam nam velit impedit, quia quaerat, iusto
-              corporis, ad ratione. Voluptatibus at in impedit! Voluptates
-              dolorum repellendus necessitatibus fuga fugiat quo illum, atque,
-              porro aliquam unde sed, est at distinctio aliquid reiciendis
-              exercitationem. Corrupti quasi modi assumenda nesciunt expedita.
+          <div class="project-information">
+            <div class="project-name-and-links">
+              <h2 class="project-name">Project name</h2>
+              <div class="links">
+                <button class="github-link">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                    alt="github logo"
+                    draggable="false"
+                  />
+                </button>
+                <button class="project-link">
+                  <img
+                    src="../src/assets/icons/link-box-variant.png"
+                    alt="link icon"
+                    draggable="false"
+                  />
+                </button>
+              </div>
+            </div>
+            <p class="project-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
+              non quibusdam, ducimus aspernatur ex soluta itaque perferendis
+              ipsam a provident.
             </p>
-            <div id="social-media-icon-wrapper">
-              <button class="github-link">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-                  alt="github logo"
-                  draggable="false"
-                />
-              </button>
-              <button class="linkedin-link">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
-                  alt="linkedin logo"
-                  draggable="false"
-                />
-              </button>
-              <button class="x-link">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
-                  alt="x logo"
-                  draggable="false"
-                />
-              </button>
-            </div>
           </div>
-        </header>
-        <main>
-          <h2>My work</h2>
-          <div id="projects-container">
-            <div class="project">
-              <div class="project-image">
-                <p>project screenshot</p>
-              </div>
-              <div class="project-information">
-                <div class="project-name-and-links">
-                  <h2 class="project-name">Project name</h2>
-                  <div class="links">
-                    <button class="github-link">
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-                        alt="github logo"
-                        draggable="false"
-                      />
-                    </button>
-                    <button class="project-link">
-                      <img
-                        src="../src/assets/icons/link-box-variant.png"
-                        alt="link icon"
-                        draggable="false"
-                      />
-                    </button>
-                  </div>
-                </div>
-                <p class="project-description">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eveniet non quibusdam, ducimus aspernatur ex soluta itaque
-                  perferendis ipsam a provident.
-                </p>
-              </div>
-            </div>
-            <div class="project">
-              <div class="project-image">
-                <p>project screenshot</p>
-              </div>
-              <div class="project-information">
-                <div class="project-name-and-links">
-                  <h2 class="project-name">Project name</h2>
-                  <div class="links">
-                    <button class="github-link">
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-                        alt="github logo"
-                        draggable="false"
-                      />
-                    </button>
-                    <button class="project-link">
-                      <img
-                        src="../src/assets/icons/link-box-variant.png"
-                        alt="link icon"
-                        draggable="false"
-                      />
-                    </button>
-                  </div>
-                </div>
-                <p class="project-description">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eveniet non quibusdam, ducimus aspernatur ex soluta itaque
-                  perferendis ipsam a provident.
-                </p>
-              </div>
-            </div>
-            <div class="project">
-              <div class="project-image">
-                <p>project screenshot</p>
-              </div>
-              <div class="project-information">
-                <div class="project-name-and-links">
-                  <h2 class="project-name">Project name</h2>
-                  <div class="links">
-                    <button class="github-link">
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-                        alt="github logo"
-                        draggable="false"
-                      />
-                    </button>
-                    <button class="project-link">
-                      <img
-                        src="../src/assets/icons/link-box-variant.png"
-                        alt="link icon"
-                        draggable="false"
-                      />
-                    </button>
-                  </div>
-                </div>
-                <p class="project-description">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eveniet non quibusdam, ducimus aspernatur ex soluta itaque
-                  perferendis ipsam a provident.
-                </p>
-              </div>
-            </div>
-            <div class="project">
-              <div class="project-image">
-                <p>project screenshot</p>
-              </div>
-              <div class="project-information">
-                <div class="project-name-and-links">
-                  <h2 class="project-name">Project name</h2>
-                  <div class="links">
-                    <button class="github-link">
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-                        alt="github logo"
-                        draggable="false"
-                      />
-                    </button>
-                    <button class="project-link">
-                      <img
-                        src="../src/assets/icons/link-box-variant.png"
-                        alt="link icon"
-                        draggable="false"
-                      />
-                    </button>
-                  </div>
-                </div>
-                <p class="project-description">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eveniet non quibusdam, ducimus aspernatur ex soluta itaque
-                  perferendis ipsam a provident.
-                </p>
-              </div>
-            </div>
-            <div class="project">
-              <div class="project-image">
-                <p>project screenshot</p>
-              </div>
-              <div class="project-information">
-                <div class="project-name-and-links">
-                  <h2 class="project-name">Project name</h2>
-                  <div class="links">
-                    <button class="github-link">
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-                        alt="github logo"
-                        draggable="false"
-                      />
-                    </button>
-                    <button class="project-link">
-                      <img
-                        src="../src/assets/icons/link-box-variant.png"
-                        alt="link icon"
-                        draggable="false"
-                      />
-                    </button>
-                  </div>
-                </div>
-                <p class="project-description">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eveniet non quibusdam, ducimus aspernatur ex soluta itaque
-                  perferendis ipsam a provident.
-                </p>
-              </div>
-            </div>
-            <div class="project">
-              <div class="project-image">
-                <p>project screenshot</p>
-              </div>
-              <div class="project-information">
-                <div class="project-name-and-links">
-                  <h2 class="project-name">Project name</h2>
-                  <div class="links">
-                    <button class="github-link">
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-                        alt="github logo"
-                        draggable="false"
-                      />
-                    </button>
-                    <button class="project-link">
-                      <img
-                        src="../src/assets/icons/link-box-variant.png"
-                        alt="link icon"
-                        draggable="false"
-                      />
-                    </button>
-                  </div>
-                </div>
-                <p class="project-description">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eveniet non quibusdam, ducimus aspernatur ex soluta itaque
-                  perferendis ipsam a provident.
-                </p>
-              </div>
-            </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <p>project screenshot</p>
           </div>
-        </main>
-        <footer>
-          <div id="contact-information">
-            <h2>Contact me</h2>
-            <p>
-              Please get in touch if you think our work could be mutually
-              beneficial!
+          <div class="project-information">
+            <div class="project-name-and-links">
+              <h2 class="project-name">Project name</h2>
+              <div class="links">
+                <button class="github-link">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                    alt="github logo"
+                    draggable="false"
+                  />
+                </button>
+                <button class="project-link">
+                  <img
+                    src="../src/assets/icons/link-box-variant.png"
+                    alt="link icon"
+                    draggable="false"
+                  />
+                </button>
+              </div>
+            </div>
+            <p class="project-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
+              non quibusdam, ducimus aspernatur ex soluta itaque perferendis
+              ipsam a provident.
             </p>
-            <p id="address">
-              1234 Random Road<br />
-              Random Town, California 12345
-            </p>
-            <p id="phone-number">555-555-5555</p>
-            <p id="email-address">johndoe@dontbotherme.com</p>
-            <div id="social-media-links">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-                alt="github logo"
-                draggable="false"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
-                alt="linkedin logo"
-                draggable="false"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
-                alt="x logo"
-                draggable="false"
-              />
-            </div>
           </div>
-          <img
-            src="../src/assets/images/portait-2-medium.jpg"
-            alt="footer portrait"
-          />
-        </footer>
-      </body>
-    </html>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <p>project screenshot</p>
+          </div>
+          <div class="project-information">
+            <div class="project-name-and-links">
+              <h2 class="project-name">Project name</h2>
+              <div class="links">
+                <button class="github-link">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                    alt="github logo"
+                    draggable="false"
+                  />
+                </button>
+                <button class="project-link">
+                  <img
+                    src="../src/assets/icons/link-box-variant.png"
+                    alt="link icon"
+                    draggable="false"
+                  />
+                </button>
+              </div>
+            </div>
+            <p class="project-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
+              non quibusdam, ducimus aspernatur ex soluta itaque perferendis
+              ipsam a provident.
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <p>project screenshot</p>
+          </div>
+          <div class="project-information">
+            <div class="project-name-and-links">
+              <h2 class="project-name">Project name</h2>
+              <div class="links">
+                <button class="github-link">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                    alt="github logo"
+                    draggable="false"
+                  />
+                </button>
+                <button class="project-link">
+                  <img
+                    src="../src/assets/icons/link-box-variant.png"
+                    alt="link icon"
+                    draggable="false"
+                  />
+                </button>
+              </div>
+            </div>
+            <p class="project-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
+              non quibusdam, ducimus aspernatur ex soluta itaque perferendis
+              ipsam a provident.
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <p>project screenshot</p>
+          </div>
+          <div class="project-information">
+            <div class="project-name-and-links">
+              <h2 class="project-name">Project name</h2>
+              <div class="links">
+                <button class="github-link">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                    alt="github logo"
+                    draggable="false"
+                  />
+                </button>
+                <button class="project-link">
+                  <img
+                    src="../src/assets/icons/link-box-variant.png"
+                    alt="link icon"
+                    draggable="false"
+                  />
+                </button>
+              </div>
+            </div>
+            <p class="project-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
+              non quibusdam, ducimus aspernatur ex soluta itaque perferendis
+              ipsam a provident.
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <p>project screenshot</p>
+          </div>
+          <div class="project-information">
+            <div class="project-name-and-links">
+              <h2 class="project-name">Project name</h2>
+              <div class="links">
+                <button class="github-link">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                    alt="github logo"
+                    draggable="false"
+                  />
+                </button>
+                <button class="project-link">
+                  <img
+                    src="../src/assets/icons/link-box-variant.png"
+                    alt="link icon"
+                    draggable="false"
+                  />
+                </button>
+              </div>
+            </div>
+            <p class="project-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
+              non quibusdam, ducimus aspernatur ex soluta itaque perferendis
+              ipsam a provident.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="contact-information">
+        <h2>Contact me</h2>
+        <p>
+          Please get in touch if you think our work could be mutually
+          beneficial!
+        </p>
+        <p id="address">
+          1234 Random Road<br />
+          Random Town, California 12345
+        </p>
+        <p id="phone-number">555-555-5555</p>
+        <p id="email-address">johndoe@dontbotherme.com</p>
+        <div class="social-media-links">
+          <button class="github-link">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+              alt="github logo"
+              draggable="false"
+            />
+          </button>
+          <button class="linkedin-link">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
+              alt="linkedin logo"
+              draggable="false"
+            />
+          </button>
+          <button class="x-link">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
+              alt="x logo"
+              draggable="false"
+            />
+          </button>
+        </div>
+      </div>
+      <img
+        src="../src/assets/images/portait-2-medium.jpg"
+        alt="footer portrait"
+      />
+    </footer>
   </body>
 </html>
